@@ -3,7 +3,7 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import CalendarApp from "../routes/CalendarApp"
 
-function GetPhone() {
+function BookNails() {
   const clickHandler = (e) => {
     e.preventDefault()
   }
@@ -25,4 +25,4 @@ function GetPhone() {
   )
 }
 
-export default GetPhone
+export default BookNails
