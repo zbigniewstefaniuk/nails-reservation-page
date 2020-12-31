@@ -8,12 +8,12 @@ function Footer() {
       <h2>joannafajto95@gmail.com</h2>
       <div className='insta-photos'>
           <h1>Instagram</h1>
-        <Feed
+        {/* <Feed
           userName="fajtojoanna"
           className="Feed"
           classNameLoading="Loading"
           limit="3"
-        />
+        /> */}
       </div>
     </div>
   )
