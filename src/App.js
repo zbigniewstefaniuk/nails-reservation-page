@@ -7,7 +7,7 @@ import Images from "./components/Images"
 import BookNails from "./components/BookNails"
 import Contact from "./components/Contact"
 import Prices from "./components/Prices"
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
   return (
