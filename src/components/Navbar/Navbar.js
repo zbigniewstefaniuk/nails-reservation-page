@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../images/logo.png'
+import logo from '../../images/logo.png'
 
 function Navbar() {
     return (
@@ -11,7 +11,6 @@ function Navbar() {
                 <a href='#'>Umów się</a>
                 <a href='#'>Kontakt</a>
             </div>
-
         </div>
     )
 }
