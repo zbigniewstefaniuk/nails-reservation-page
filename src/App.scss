@@ -44,28 +44,16 @@ $text-main: #253246;
 }
 
 .top-navbar {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  top: 0;
-  overflow: hidden;
-  width: 100%;
-  position: absolute;
+  // display: flex;
+  // align-items: flex-end;
+  // justify-content: space-between;
+  //top: 0;
+  // overflow: hidden;
+  // width: 100%;
+  //position: fixed;
   font-size: calc(2px + 2vmin);
 
-  img {
-    margin-left: 8rem;
-    width: 100px;
-    cursor: pointer;
-  }
-
-  .navbar-links {
-    margin-right: 8rem;
-  }
-
   a {
-    top: 0;
-    float: right;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -98,6 +86,7 @@ img {
 }
 
 .logo {
+  margin-top: 70px;
   width: auto;
   height: auto;
 }
@@ -173,6 +162,7 @@ img {
 
 // for phones
 @media (max-width: 800px) {
+  
   .main-images-container {
     flex-direction: column;
   }
