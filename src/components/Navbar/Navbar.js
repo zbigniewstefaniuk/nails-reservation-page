@@ -1,17 +1,34 @@
 import React from 'react'
+import './Navbar.css'
+import { NavbarItems } from './NavbarItems'
 
 import logo from '../../images/logo.png'
 
 function Navbar() {
+    const [menu, setMenu] = React.useState({ clicked: false })
+
+    const handleClick = () => {
+        setMenu({ clicked: !menu.clicked })
+    }
+
     return (
-        <div className='top-navbar'>
-            <img className="logo" src={logo} alt="logo-Joanna" />
-            <div className='navbar-links'>
-                <a href='#'>Cennik</a>
-                <a href='#'>Umów się</a>
-                <a href='#'>Kontakt</a>
+        <nav className='top-navbar'>
+            <img className="navbar-logo" src={logo} alt="logo-Joanna" />
+            <div className='menu-icon' onClick={handleClick}>
+                <i className={menu.clicked ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
-        </div>
+            <ul className={menu.clicked ? 'nav-menu active' : 'nav-menu'}>
+                {NavbarItems.map(({ title, url, cName }, index) => {
+                    return (
+                        <li key={index}>
+                            <a className={cName} href={url}>
+                                {title}
+                            </a>
+                        </li>
+                    )
+                })}
+            </ul>
+        </nav>
     )
 }
 
