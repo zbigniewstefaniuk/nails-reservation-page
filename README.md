@@ -1,7 +1,7 @@
 <br />
 <h1 align="center">Nail Salon Booking App implemented using <a href="https://reactjs.org/">React</a></h1>
 
-<p align="center">More info here </p>
+<p align="center">Pge Still under Development </p>
 
 <h3 align="center"><a href="https://nailsbyjoanna.netlify.app/">Demo</a></h3>
 <br />
