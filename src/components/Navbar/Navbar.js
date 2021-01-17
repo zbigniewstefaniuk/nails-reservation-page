@@ -4,6 +4,8 @@ import { NavbarItems } from './NavbarItems'
 
 import logo from '../../images/logo.png'
 
+import { Link } from "react-scroll";
+
 function Navbar() {
     const [menu, setMenu] = React.useState({ clicked: false })
 
@@ -21,9 +23,9 @@ function Navbar() {
                 {NavbarItems.map(({ title, url, cName }, index) => {
                     return (
                         <li key={index}>
-                            <a className={cName} href={url}>
+                            <Link className={cName} to={url} smooth={true} duration={1000}>
                                 {title}
-                            </a>
+                            </Link>
                         </li>
                     )
                 })}
