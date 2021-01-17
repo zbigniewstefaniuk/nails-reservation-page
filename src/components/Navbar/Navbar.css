@@ -53,6 +53,7 @@
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 
 .fa-bars {
