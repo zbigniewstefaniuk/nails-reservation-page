@@ -1,22 +1,22 @@
 export const NavbarItems = [
     {
         title: 'Home',
-        url: '#',
+        url: 'home',
         cName: 'nav-links'
     },
     {
         title: 'Umów się',
-        url: '#',
+        url: 'book-nails',
         cName: 'nav-links'
     },
     {
         title: 'Cennik',
-        url: '#',
+        url: 'prices',
         cName: 'nav-links'
     },
     {
         title: 'Kontakt',
-        url: '#',
+        url: 'contact',
         cName: 'nav-links'
     }
 ]
