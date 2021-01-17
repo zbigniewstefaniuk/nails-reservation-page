@@ -9,7 +9,7 @@ import { animateScroll as scroll } from "react-scroll"
 import Images from "./components/Images"
 import BookNails from "./components/BookNails"
 import Contact from "./components/Contact"
-import Prices from "./components/Prices"
+import Prices from "./components/Prices/Prices"
 import Navbar from "./components/Navbar/Navbar"
 
 function App() {
