@@ -1,5 +1,8 @@
+import { Link } from 'react-router-dom'
+
 import styles from '../styles/home.module.css'
-import Navbar from "./Navbar/Navbar"
+import Navbar from './Navbar/Navbar'
+
 
 function Home() {
     return (
@@ -10,9 +13,11 @@ function Home() {
                     <h1>Umów się na paznokcie juz teraz!</h1>
                 </div>
                 <div className={styles.bookNails}>
-                    <button className={styles.homeButton}>
-                        Umów się!
-                    </button>
+                    <Link to="/booknail" >
+                        <button className={styles.homeButton}>
+                            Umów się!
+                        </button>
+                    </Link>
                 </div>
             </div>
 
