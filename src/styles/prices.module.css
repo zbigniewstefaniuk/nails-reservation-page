@@ -4,5 +4,35 @@
   background: url("../assets/pricesBG.svg") no-repeat;
   background-size: cover;
   padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.prices h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #EC9B85;
+}
+
+.prices .pricesContainerService {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 217, 207, 0.75)), to(rgba(234, 209, 202, 0.75)));
+  background: linear-gradient(180deg, rgba(249, 217, 207, 0.75) 0%, rgba(234, 209, 202, 0.75) 100%);
+  border-radius: 30px;
+  margin: 1.5rem 0 1.5rem 0;
 }
 /*# sourceMappingURL=prices.module.css.map */
