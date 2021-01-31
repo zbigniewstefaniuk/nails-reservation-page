@@ -1,26 +1,23 @@
 import "./App.css"
 
-// components
-import Contact from "./components/Contact"
-import Prices from "./components/Prices/Prices"
-import Home from "./components/Home"
+// Routes
+import Galery from "./routes/Galery"
+import LandingPage from "./routes/LandingPage"
+import CalendarApp from "./routes/CalendarApp"
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header id="home">
-        <Home />
-      </header>
-      {/* <header id="book-nails">
-        <BookNails />
-      </header> */}
-      <header id="prices">
-        <Prices />
-      </header>
-      <header id="contact">
-        <Contact />
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={LandingPage} />
+          <Route path="/galery" component={Galery} />
+          <Route path='/booknail' component={CalendarApp} />
+        </Switch>
+      </div>
+    </Router>
   )
 }
 
