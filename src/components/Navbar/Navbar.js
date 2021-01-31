@@ -2,8 +2,6 @@ import { useState } from 'react'
 import './Navbar.css'
 import { NavbarItems } from './NavbarItems'
 
-import logo from '../../images/logo.png'
-
 import { Link } from "react-scroll"
 
 function Navbar() {
