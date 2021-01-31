@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import './Navbar.css'
 import { NavbarItems } from './NavbarItems'
 
@@ -7,7 +7,7 @@ import logo from '../../images/logo.png'
 import { Link } from "react-scroll";
 
 function Navbar() {
-    const [menu, setMenu] = React.useState({ clicked: false })
+    const [menu, setMenu] = useState({ clicked: false })
 
     const handleClick = () => {
         setMenu({ clicked: !menu.clicked })

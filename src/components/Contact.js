@@ -1,4 +1,3 @@
-import React from "react"
 import Feed from "react-instagram-authless-feed"
 
 function Footer() {
