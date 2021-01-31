@@ -12,7 +12,7 @@ function Home() {
                 <div className={styles.bookNails}>
                     <button className={styles.homeButton}>
                         Umów się!
-            </button>
+                    </button>
                 </div>
             </div>
 
