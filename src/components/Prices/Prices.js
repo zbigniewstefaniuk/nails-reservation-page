@@ -3,7 +3,7 @@ import styles from '../../styles/prices.module.css'
 
 function Prices() {
   return (
-    <section className={styles.prices}>
+    <section className={styles.prices} id="prices">
       <div class="container my-5">
         <div class="text-center mb-5">
           <h1>Cennik</h1>
