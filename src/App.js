@@ -1,35 +1,24 @@
 import "./App.css"
-
-import logo from "./images/logo.png"
-
-//
-import { animateScroll as scroll } from "react-scroll"
+import styles from './styles/prices.module.css'
 
 // components
-import Images from "./components/Images"
-import BookNails from "./components/BookNails"
 import Contact from "./components/Contact"
 import Prices from "./components/Prices/Prices"
-import Navbar from "./components/Navbar/Navbar"
+import Home from "./components/Home"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header" id="home">
-        <Navbar />
-        <div className="header">
-          <img className="logo" src={logo} alt="logo-Joanna"  onClick={() => scroll.scrollToTop}/>
-        </div>
-        <br />
-        <Images />
+      <header id="home">
+        <Home />
       </header>
-      <header className="App-header" id="book-nails">
+      {/* <header id="book-nails">
         <BookNails />
-      </header>
-      <header className="App-header" id="prices">
+      </header> */}
+      <header className={styles.prices} id="prices">
         <Prices />
       </header>
-      <header className="App-header" id="contact">
+      <header id="contact">
         <Contact />
       </header>
     </div>

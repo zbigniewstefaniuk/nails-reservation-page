@@ -34,7 +34,6 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  //color: #282c34;
   color: $text-main;
 }
 
@@ -48,13 +47,6 @@ body {
 }
 
 .top-navbar {
-  // display: flex;
-  // align-items: flex-end;
-  // justify-content: space-between;
-  //top: 0;
-  // overflow: hidden;
-  // width: 100%;
-  //position: fixed;
   font-size: calc(2px + 2vmin);
 
   a {
@@ -117,30 +109,6 @@ img {
   }
 }
 
-.price-table {
-  table {
-    width: 100%;
-  }
-
-  text-align: left;
-
-  table,
-  th,
-  td {
-    border-bottom: 0.5px solid black;
-    padding: 1rem;
-  }
-
-  th {
-    padding-right: 20vw;
-    padding-bottom: 1.5rem;
-  }
-
-  td,
-  th:nth-child(even) {
-    padding: 1rem !important;
-  }
-}
 
 .calendar-app {
   padding: 1rem;
