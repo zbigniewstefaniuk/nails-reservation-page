@@ -1,8 +1,11 @@
 import Feed from "react-instagram-authless-feed"
 
+import styles from '../styles/contact.module.css'
+
 function Footer() {
   return (
-    <div>
+    <section className={styles.contactMainSection}>
+      <div className={styles.contactInfo}>
       <h1>Kontakt</h1>
       <h2>joannafajto95@gmail.com</h2>
       <h2>+48 512 602 455</h2>
@@ -15,7 +18,8 @@ function Footer() {
           limit="3"
         /> */}
       </div>
-    </div>
+      </div>
+    </section>
   )
 }
 
