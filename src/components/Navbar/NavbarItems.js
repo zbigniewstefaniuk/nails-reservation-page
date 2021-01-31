@@ -4,11 +4,11 @@ export const NavbarItems = [
         url: 'home',
         cName: 'nav-links'
     },
-    // {
-    //     title: 'Umów się',
-    //     url: 'book-nails',
-    //     cName: 'nav-links'
-    // },
+    {
+        title: 'Galeria',
+        url: 'book-nails',
+        cName: 'nav-links'
+    },
     {
         title: 'Cennik',
         url: 'prices',
