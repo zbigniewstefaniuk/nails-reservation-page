@@ -1,5 +1,4 @@
 import "./App.css"
-import styles from './styles/prices.module.css'
 
 // components
 import Contact from "./components/Contact"
@@ -15,7 +14,7 @@ function App() {
       {/* <header id="book-nails">
         <BookNails />
       </header> */}
-      <header className={styles.prices} id="prices">
+      <header id="prices">
         <Prices />
       </header>
       <header id="contact">
