@@ -38,18 +38,20 @@
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100%;
-  padding-left: 270px;
+  padding-left: 370px;
   padding-top: 2rem;
 }
 
 .homeSectionLanding .homeButton {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   background: -webkit-gradient(linear, left top, left bottom, from(#F9D9CF), to(#EAD1CA));
   background: linear-gradient(180deg, #F9D9CF 0%, #EAD1CA 100%);
   border-radius: 30px;
   outline: none;
   border: none;
-  height: 106px;
-  width: 416px;
+  height: 80px;
+  width: 316px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -59,9 +61,14 @@
   color: #253246;
 }
 
+.homeSectionLanding .homeButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#eed3cd), to(#f3d7d0));
+  background: linear-gradient(180deg, #eed3cd 0%, #f3d7d0 100%);
+}
+
 .homeSectionLanding .homeHeroText {
   margin-left: 80px;
-  margin-top: 180px;
+  margin-top: 150px;
   max-width: 852px;
   max-height: 314px;
 }
@@ -98,14 +105,14 @@
             align-items: center;
   }
   .homeSectionLanding .homeButton {
-    height: 106px;
-    width: 216px;
-    font-size: 26px;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
   }
   .homeSectionLanding .homeHeroText {
     margin-left: 0;
     padding-left: 20px;
-    margin-top: 180px;
+    margin-top: 25px;
     width: 100%;
     height: 314px;
   }
