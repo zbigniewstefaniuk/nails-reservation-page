@@ -16,6 +16,7 @@ $text-main: #253246;
 }
 
 .nav-menu {
+    font-weight: 600;
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 20px;
@@ -66,10 +67,7 @@ $text-main: #253246;
 
     .nav-menu.active {
         font-size: calc(10px + 2vmin);
-        background: radial-gradient(circle,
-        rgba(255, 239, 236, 1) 0%,
-        rgba(236, 208, 208, 1) 64%,
-        rgba(255, 196, 220, 1) 100%);
+        background: #CBCBCB;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

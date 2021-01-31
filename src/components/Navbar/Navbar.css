@@ -20,6 +20,7 @@
 }
 
 .nav-menu {
+  font-weight: 600;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (auto)[5];
@@ -79,7 +80,7 @@
   }
   .nav-menu.active {
     font-size: calc(10px + 2vmin);
-    background: radial-gradient(circle, #ffefec 0%, #ecd0d0 64%, #ffc4dc 100%);
+    background: #CBCBCB;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
