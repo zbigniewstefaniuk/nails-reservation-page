@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import CalendarApp from "../routes/CalendarApp"
 
+import styles from '../styles/bookNails.module.css'
+
 function BookNails() {
   const clickHandler = (e) => {
     e.preventDefault()
@@ -8,6 +10,7 @@ function BookNails() {
 
   return (
     <Router>
+      <section className={styles.bookNailsSection}>
       <div className="call-me">
         <div>
           <h1>JUŻ TERAZ UMÓW SIĘ NA WIZYTĘ</h1>
@@ -19,6 +22,7 @@ function BookNails() {
           </Switch>
         </div>
       </div>
+      </section>
     </Router>
   )
 }
