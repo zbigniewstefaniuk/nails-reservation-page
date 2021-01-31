@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,KAAK;EACtB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACzB",
+    "sources": [
+        "bookNails.module.scss"
+    ],
+    "names": [],
+    "file": "bookNails.module.css"
+}

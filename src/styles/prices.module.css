@@ -1,6 +1,8 @@
 .prices {
-    box-sizing: border-box;
-    background: url('../assets/pricesBG.svg') no-repeat;
-    background-size: cover;
-    padding-top: 4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("../assets/pricesBG.svg") no-repeat;
+  background-size: cover;
+  padding-top: 4rem;
 }
+/*# sourceMappingURL=prices.module.css.map */
