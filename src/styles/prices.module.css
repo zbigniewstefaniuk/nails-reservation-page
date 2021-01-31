@@ -26,13 +26,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 3rem 1.5rem 3rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 217, 207, 0.75)), to(rgba(234, 209, 202, 0.75)));
   background: linear-gradient(180deg, rgba(249, 217, 207, 0.75) 0%, rgba(234, 209, 202, 0.75) 100%);
   border-radius: 30px;
   margin: 1.5rem 0 1.5rem 0;
+}
+
+/* for phones */
+@media (max-width: 800px) {
+  .prices .pricesContainerService {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=prices.module.css.map */

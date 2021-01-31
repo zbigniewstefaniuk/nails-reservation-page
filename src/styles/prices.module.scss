@@ -21,10 +21,20 @@
         display: flex;
         display: flex;
         align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        background: linear-gradient(180deg, rgba(249, 217, 207, 0.75) 0%, rgba(234, 209, 202, 0.75) 100%);;
+        justify-content: space-between;
+        padding: 1.5rem 3rem 1.5rem 3rem;
+        background: linear-gradient(180deg, rgba(249, 217, 207, 0.75) 0%, rgba(234, 209, 202, 0.75) 100%);
+        
         border-radius: 30px;
         margin: 1.5rem 0 1.5rem 0;
+    }
+}
+
+/* for phones */
+@media (max-width: 800px) {
+    .prices {
+        .pricesContainerService {
+            flex-direction: column;
+        }
     }
 }
