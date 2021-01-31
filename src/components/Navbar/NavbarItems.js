@@ -6,7 +6,7 @@ export const NavbarItems = [
     },
     {
         title: 'Galeria',
-        url: 'book-nails',
+        url: 'galery',
         cName: 'nav-links'
     },
     {
