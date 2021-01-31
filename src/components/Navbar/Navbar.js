@@ -4,7 +4,7 @@ import { NavbarItems } from './NavbarItems'
 
 import logo from '../../images/logo.png'
 
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"
 
 function Navbar() {
     const [menu, setMenu] = useState({ clicked: false })
@@ -15,7 +15,6 @@ function Navbar() {
 
     return (
         <nav className='top-navbar'>
-            <img className="navbar-logo" src={logo} alt="logo-Joanna" />
             <div className='menu-icon' onClick={handleClick}>
                 <i className={menu.clicked ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
