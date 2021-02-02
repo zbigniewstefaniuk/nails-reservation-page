@@ -45,6 +45,8 @@ body {
           justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #253246;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .App-link {
@@ -68,7 +70,7 @@ body {
   color: #253246;
 }
 
-.main-images-container {
+.main_images_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,14 +83,14 @@ body {
       justify-content: space-around;
 }
 
-.main-images-container img {
+.main_images_container img {
   margin: 1rem;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   cursor: pointer;
 }
 
-.main-images-container img:hover {
+.main_images_container img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
