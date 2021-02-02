@@ -1,6 +1,6 @@
 import Images from "./Images"
 
-import styles from '../styles/Gallery.css'
+import styles from '../styles/Gallery.module.css'
 
 function GalleryComp() {
     return (
