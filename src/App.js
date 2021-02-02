@@ -1,7 +1,7 @@
 import "./App.css"
 
 // Routes
-import Galery from "./routes/Galery"
+import Gallery from "./routes/Gallery"
 import LandingPage from "./routes/LandingPage"
 import CalendarApp from "./routes/CalendarApp"
 
@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/" exact component={LandingPage} />
-          <Route path="/galery" component={Galery} />
+          <Route path="/galery" component={Gallery} />
           <Route path='/booknail' component={CalendarApp} />
         </Switch>
       </div>
