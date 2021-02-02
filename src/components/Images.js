@@ -5,12 +5,12 @@ import IMG_5695 from '../images/IMG_5695.JPG'
 
 function Images() {
   return (
-    <div className="main-images-container">
+    <>
       <ImageDiv img={DSC_5935} />
       <ImageDiv img={DSC_0062} />
       <ImageDiv img={IMG_5695} />
       <ImageDiv img={DSC_0080} />
-    </div>
+    </>
   )
 }
 
