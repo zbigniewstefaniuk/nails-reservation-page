@@ -9,6 +9,7 @@ function Images() {
       <ImageDiv img={DSC_5935} />
       <ImageDiv img={DSC_0062} />
       <ImageDiv img={IMG_5695} />
+      <ImageDiv img={DSC_0080} />
     </div>
   )
 }
