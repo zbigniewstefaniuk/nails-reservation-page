@@ -5,7 +5,7 @@ import { Link as LinkRoute } from "react-router-dom"
 import './Navbar.css'
 
 import { NavbarItems } from './NavbarItems'
-import Galery from '../../routes/Galery'
+
 
 function Navbar() {
     const [menu, setMenu] = useState({ clicked: false })
@@ -21,7 +21,7 @@ function Navbar() {
             </div>
             <ul className={menu.clicked ? 'nav-menu active' : 'nav-menu'}>
                 {NavbarItems.map(({ title, url, cName }, index) => {
-                    if (url === '/galery') {
+                    if (url === '/gallery') {
                         return (
                             <li key={index}>
                                 <LinkRoute to={url} >
