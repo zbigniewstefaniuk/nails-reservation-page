@@ -9,7 +9,7 @@
     "axios": "^0.21.1",
     "moment": "^2.29.1",
     "react": "^17.0.1",
-    "react-calendar": "^3.2.1",
+    "react-calendar": "^3.3.1",
     "react-dom": "^17.0.1",
     "react-file-base64": "^1.0.3",
     "react-instagram-authless-feed": "github:jamesmoriarty/react-instagram-authless-feed#v1.1.1",
