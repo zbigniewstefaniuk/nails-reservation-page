@@ -23,7 +23,6 @@ function Navbar() {
         {NavbarItems.map(({ title, url, cName }, index) => {
           return (
             <li key={index}>
-              <LinkRoute to={url} onClick={handleClick}>
                 <HashLink
                   className={cName}
                   to={url}
@@ -32,7 +31,6 @@ function Navbar() {
                   onClick={handleClick}>
                   {title}
                 </HashLink>
-              </LinkRoute>
             </li>
           )
         })}
