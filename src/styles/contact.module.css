@@ -17,6 +17,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+}
+
+.contactMainSection .photo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1056px;
 }
 
 .contactMainSection .header {
@@ -38,7 +46,7 @@
   color: #EC858B;
 }
 
-.contactMainSection h2 {
+.contactMainSection p3 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
@@ -76,7 +84,7 @@
   border-radius: 32px;
 }
 
-.contactInfo h2 {
+.contactInfo p3 {
   padding: 1rem;
 }
 
@@ -84,8 +92,11 @@
   .contactInfo {
     padding: 0;
   }
-  .contactInfo h2 {
-    font-size: 24px;
+  .contactInfo p3 {
+    font-size: 16px;
+  }
+  .photo {
+    width: 156px;
   }
 }
 /*# sourceMappingURL=contact.module.css.map */
