@@ -12,7 +12,10 @@ function Footer() {
         <h2>joannafajto95@gmail.com</h2>
         <h2>+48 512 602 455</h2>
         <div className='insta-photos'>
+        <a href="https://www.instagram.com/fajtojoanna/" >
+
           <h2>Instagram</h2>
+        </a>
           {/* <Feed
           userName="fajtojoanna"
           className="Feed"
