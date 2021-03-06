@@ -70,13 +70,14 @@ $text-main: #253246;
 
     .nav-menu.active {
         font-size: calc(10px + 2vmin);
-        background: #CBCBCB;
+        background: #ffffff;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 10;
         padding: 0;
         margin: 0;
+        height: fit-content;
     }
 
     .nav-links {

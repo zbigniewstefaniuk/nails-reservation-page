@@ -24,7 +24,7 @@ function Navbar() {
                     if (url === '/gallery') {
                         return (
                             <li key={index}>
-                                <LinkRoute to={url} >
+                                <LinkRoute to={url} onClick={handleClick}>
                                     {title}
                                 </LinkRoute>
                             </li>
@@ -32,8 +32,8 @@ function Navbar() {
                     } else {
                         return (
                             <li key={index}>
-                                <LinkRoute to={url} >
-                                    <Link className={cName} to={url} smooth={true} duration={1000}>
+                                <LinkRoute to={url} onClick={handleClick}>
+                                    <Link className={cName} to={url} smooth={true} duration={1000} onClick={handleClick}>
                                         {title}
                                     </Link>
                                 </LinkRoute>
