@@ -1,7 +1,7 @@
 export const NavbarItems = [
     {
         title: 'Home',
-        url: 'home',
+        url: '/#home',
         cName: 'nav-links'
     },
     {
@@ -11,12 +11,12 @@ export const NavbarItems = [
     },
     {
         title: 'Cennik',
-        url: 'prices',
+        url: '/#prices',
         cName: 'nav-links'
     },
     {
         title: 'Kontakt',
-        url: 'contact',
+        url: '/#contact',
         cName: 'nav-links'
     }
 ]
