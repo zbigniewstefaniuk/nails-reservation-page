@@ -1,10 +1,13 @@
 .prices {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url("../assets/pricesBG.svg") no-repeat;
+  background: url("../assets/Cennik.png") no-repeat;
   background-size: cover;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  headerText-align-items: center;
+  headerText-text-align: center;
+  headerText-justify-content: center;
 }
 
 .prices h1 {
@@ -13,15 +16,23 @@
   font-weight: 800;
   font-size: 72px;
   line-height: 88px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: -0.015em;
-  color: #EC9B85;
+  color: #FFFFFF;
+}
+
+.prices .rowWrapper {
+  padding: 0;
+  padding: 3px;
+  border-radius: 30px;
 }
 
 .prices .pricesContainerService {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -30,10 +41,8 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1.5rem 3rem 1.5rem 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 217, 207, 0.75)), to(rgba(234, 209, 202, 0.75)));
-  background: linear-gradient(180deg, rgba(249, 217, 207, 0.75) 0%, rgba(234, 209, 202, 0.75) 100%);
+  background: linear-gradient(269.83deg, #F8D2C7 1.81%, #F8D2C7 49.31%, #FFF3EF 99.86%);
   border-radius: 30px;
-  margin: 1.5rem 0 1.5rem 0;
 }
 
 /* for phones */
