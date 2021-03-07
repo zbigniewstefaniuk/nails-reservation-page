@@ -8,7 +8,7 @@ function Home() {
         <section id="home" className={styles.homeSection}>
             <div className={styles.homeSectionLanding}>
                 <div className={styles.homeHeroText}>
-                    <h1>Umów się na paznokcie juz teraz!</h1>
+                    <h1>Umów się na paznokcie</h1>
                 </div>
                 <div className={styles.bookNails}>
                     <Link to="/booknail" >
