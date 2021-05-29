@@ -57,3 +57,11 @@ input {
     margin: 1rem auto;
     box-shadow: $box-shadow;
 }
+
+// phones
+@media (max-width: 800px) {
+    calendar {
+margin-top: 90%
+    }
+}
+

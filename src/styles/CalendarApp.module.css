@@ -74,4 +74,10 @@ input {
   -webkit-box-shadow: 0px 2px 31px -13px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 2px 31px -13px rgba(0, 0, 0, 0.75);
 }
+
+@media (max-width: 800px) {
+  calendar {
+    margin-top: 90%;
+  }
+}
 /*# sourceMappingURL=CalendarApp.module.css.map */
