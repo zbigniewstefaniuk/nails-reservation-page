@@ -1,0 +1,59 @@
+
+$text-white: #fff;
+$box-shadow: 0px 2px 31px -13px rgba(0,0,0,0.75);
+
+.calendarApp {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ff7b73 ;
+    flex: 1;
+    height: calc(100vh - 70px),
+
+}
+
+.formEmailBooking  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+calendar {
+    align-self: center;
+    margin: 20px;
+    padding: 20px;
+    background-color:$text-white;
+    border-radius: 30px;
+    box-shadow: $box-shadow;
+}
+
+section {
+    color: $text-white;
+    font-weight: bold;
+}
+
+form {
+    padding: 1.5rem 0;
+    background-color: #ff7b73 ;
+p {
+    color: $text-white;
+}
+}
+
+label {
+    color: $text-white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input {
+    border-radius: 30px;
+    border-width: 0;
+    padding: .45rem 3rem ;
+    outline: none;
+    margin: 1rem auto;
+    box-shadow: $box-shadow;
+}
